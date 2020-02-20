@@ -1,10 +1,14 @@
-.hello-world-container {
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.hello-world-container > p {
-  font-size: 18px;
-  margin-top: 60px;
+.app-container {
+  margin-top: 80px;
+}
+
+.card {
+  padding: 1em;
+  margin-bottom: 1.5em;
 }
